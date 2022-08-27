@@ -34,5 +34,4 @@ git clone https://github.com/iron-fish/ironfish
 cd ironfish
 yarn install
 cd ironfish-cli
-screen -R fishing
-yarn start miners:start -t -1 -p $poolAddress -a $walletAddress
+screen -S fishing -dm "yarn start miners:start -t -1 -p $poolAddress -a $walletAddress"
