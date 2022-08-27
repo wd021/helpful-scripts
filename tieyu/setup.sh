@@ -2,13 +2,6 @@
 
 curl -s https://raw.githubusercontent.com/wd021/helpful-scripts/main/wd021.sh | bash
 
-if [[ "$1" != "" ]]; then
-    graffiti="$1"
-else
-    echo -e "What's your graffiti?"
-    read graffiti
-fi
-
 echo -e '\n\e[42mInstalling dependencies...\e[0m\n' && sleep 1
 cd $HOME
 sudo apt-get update -y
@@ -26,3 +19,5 @@ echo -e '\n\e[42mInstalling ironfish repo...\e[0m\n' && sleep 1
 git clone https://github.com/iron-fish/ironfish
 cd ironfish
 yarn install
+cd ironfish-cli
+yarn start chain:download -confirm true
