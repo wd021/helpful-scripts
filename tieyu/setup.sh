@@ -20,4 +20,4 @@ git clone https://github.com/iron-fish/ironfish
 cd ironfish
 yarn install
 cd ironfish-cli
-yarn start chain:download -confirm true
+yarn start chain:download --confirm

@@ -21,4 +21,4 @@ cd ironfish
 git checkout rescan
 yarn install
 cd ironfish-cli
-yarn start chain:download -confirm true
+yarn start chain:download --confirm
