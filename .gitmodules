@@ -1,0 +1,3 @@
+[submodule "arweave/miner"]
+	path = arweave/miner
+	url = https://github.com/virdpool/miner
