@@ -7,3 +7,4 @@
 
 arweave 和 门罗币 - randomX
 -  门罗币 work: wget -q -O work.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/monero/work.sh && chmod +x work.sh && sudo /bin/bash work.sh
+-  门罗币 work-coin: wget -q -O work-coin.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/monero/work-coin.sh && chmod +x work-coin.sh && sudo /bin/bash work-coin.sh
