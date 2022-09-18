@@ -34,6 +34,6 @@ sudo apt-get update
 sudo apt-get -y install cuda
 
 echo -e '\n\e[42mInstalling zk fisher...\e[0m\n' && sleep 1
-wget -c https://zk.work/download/ironfish/gpu/v0.1.2.tar.gz -O - | tar -xz
-cd v0.1.2
-screen -S fishing -dm ./zkwork_ironminer_ubuntu_amd --pool $poolAddress --address $walletAddress --worker_name $workerName
+wget -c https://zk.work/download/ironfish/gpu/v0.1.6.tar.gz -O - | tar -xz
+cd v0.1.6
+screen -S fishing -dm ./zkwork_ironminer --pool $poolAddress --address $walletAddress --worker_name $workerName
