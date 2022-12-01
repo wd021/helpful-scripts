@@ -23,4 +23,4 @@ git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 cd snarkOS
 source ./build_ubuntu.sh
 cargo install --path .
-screen -S proving -dm PROVER_PRIVATE_KEY=$privateKey source ./run-prover.sh
+screen -S proving -dm source PROVER_PRIVATE_KEY=$privateKey ./run-prover.sh
