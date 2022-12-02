@@ -14,4 +14,7 @@ git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 cd snarkOS
 ./build_ubuntu.sh
 export PROVER_PRIVATE_KEY=$privateKey
+sleep 5
+cd $HOME
+cd snarkOS
 screen -S proving -dm ./run-prover.sh
