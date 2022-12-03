@@ -28,9 +28,9 @@ apt-get install htop
 wget https://github.com/6block/zkwork_aleo_worker/releases/download/v0.3.2/release.tar.gz
 tar -xf release.tar.gz
 
-ufc allow 4133/tcp
-ufc allow 3033/tcp
-ufc allow 10001/tcp
-ufc allow 10002/tcp
+ufw allow 4133/tcp
+ufw allow 3033/tcp
+ufw allow 10001/tcp
+ufw allow 10002/tcp
 
 screen -S fishing -dm ./zkwork_aleo_worker_gpu --email dannywitters@gmail.com --tcp_server "36.189.234.195:10001" --ssl_server "36.189.234.195:10002" --custom_name $minerName --parallel_num $parallelProcesses
