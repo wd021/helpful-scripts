@@ -6,6 +6,9 @@
 
 ailio
 - prover: wget -q -O prover.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/ailio/prover.sh && chmod +x prover.sh && sudo /bin/bash prover.sh
+- zk-gpu: wget -q -O zk_gpu.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/ailio/zk_gpu.sh && chmod +x zk_gpu.sh && sudo /bin/bash zk_gpu.sh
+- zk-cpu: wget -q -O zk_cpu.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/ailio/zk_cpu.sh && chmod +x zk_cpu.sh && sudo /bin/bash zk_cpu.sh
+    * ref: https://github.com/6block/zkwork_aleo_worker
 
 arweave 和 门罗币 - randomX
 -  门罗币 work: wget -q -O work.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/monero/work.sh && chmod +x work.sh && sudo /bin/bash work.sh
