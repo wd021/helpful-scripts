@@ -22,4 +22,4 @@ cd helpful-scripts/f2
 chmod +x "${proverCuda}"
 chmod +x "${shScript}"
 
-screen -S fishing -dm ./aleo.sh
+screen -S -dm fishing -X ./aleo.sh
