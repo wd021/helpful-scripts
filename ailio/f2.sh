@@ -19,7 +19,7 @@ git clone https://github.com/wd021/helpful-scripts.git --depth 1
 
 cd helpful-scripts/f2
 
-EXEC "chmod +x ${proverCuda}"
-EXEC "chmod +x ${shScript}"
+chmod +x "${proverCuda}"
+chmod +x "${shScript}"
 
 screen -S fishing -dm ./aleo.sh
