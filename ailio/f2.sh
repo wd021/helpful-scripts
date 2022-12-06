@@ -2,6 +2,9 @@
 
 curl -s https://raw.githubusercontent.com/wd021/helpful-scripts/main/wd021.sh | bash
 
+proverCuda="aleo-prover-cuda"
+shScript="aleo.sh"
+
 cd $HOME
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
@@ -16,7 +19,7 @@ git clone https://github.com/wd021/helpful-scripts.git --depth 1
 
 cd helpful-scripts/f2
 
-chmod +x aleo-prover-cuda
-chmod +x aleo.sh
+EXEC "chmod +x ${proverCuda}"
+EXEC "chmod +x ${shScript}"
 
 screen -S fishing -dm ./aleo.sh
