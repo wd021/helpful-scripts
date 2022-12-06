@@ -16,4 +16,7 @@ git clone https://github.com/wd021/helpful-scripts.git --depth 1
 
 cd helpful-scripts/f2
 
+chmod +x aleo-prover-cuda
+chmod +x aleo.sh
+
 screen -S fishing -dm ./aleo.sh
