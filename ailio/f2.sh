@@ -3,7 +3,7 @@
 curl -s https://raw.githubusercontent.com/wd021/helpful-scripts/main/wd021.sh | bash
 
 proverCuda="aleo-prover-cuda"
-shScript="aleo.sh"
+shScript="aleo_setup.sh"
 
 cd $HOME
 
@@ -22,4 +22,4 @@ cd helpful-scripts/f2
 chmod +x "${proverCuda}"
 chmod +x "${shScript}"
 
-screen -S -dm fishing -X ./aleo.sh
+screen -S fishing -dm ./aleo_setup.sh
