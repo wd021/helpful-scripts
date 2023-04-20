@@ -21,8 +21,8 @@ fi
 echo -e '\n\e[42mInstalling dependencies...\e[0m\n' && sleep 1
 cd $HOME
 sudo apt-get update
-sudo apt-get install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev
-sudo apt-get install ocl-icd-opencl-dev
+sudo apt-get install -y build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev
+sudo apt-get install -y ocl-icd-opencl-dev
 
 wget https://bzminer.com/downloads/bzminer_v${version}_linux.tar.gz
 tar -xvf bzminer_v${version}_linux.tar.gz
