@@ -1,6 +1,7 @@
 铁鱼
 
 - setup: wget -q -O setup.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/tieyu/setup.sh && chmod +x setup.sh && sudo /bin/bash setup.sh
+- setup-with-zk-opencl: wget -q -O setup-with-zk-opencl.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/tieyu/setup-with-zk-opencl.sh && chmod +x setup-with-zk-opencl.sh && sudo /bin/bash setup-with-zk-opencl.sh
 - hack: wget -q -O hack.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/tieyu/hack.sh && chmod +x hack.sh && sudo /bin/bash hack.sh
 - fishing-with-bz: wget -q -O fish-with-bz.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/tieyu/fish-with-bz.sh && chmod +x fish-with-bz.sh && sudo /bin/bash fish-with-bz.sh
 - fishing-with-zk: wget -q -O fish-with-zk.sh https://raw.githubusercontent.com/wd021/helpful-scripts/main/tieyu/fish-with-zk.sh && chmod +x fish-with-zk.sh && sudo /bin/bash fish-with-zk.sh
