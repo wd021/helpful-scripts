@@ -16,7 +16,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 
 # zk
-wget https://github.com/6block/ironfish-gpu-miner/releases/download/v2.0.0/zkwork_ironminer.tar.gz
+wget https://github.com/6block/ironfish-gpu-miner/releases/download/v2.0.1/zkwork_ironminer.tar.gz
 tar -zxvf zkwork_ironminer.tar.gz
 
 cd zkwork_ironminer

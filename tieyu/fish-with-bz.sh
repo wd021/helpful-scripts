@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=14.2.0
+version=14.3.0
 
 curl -s https://raw.githubusercontent.com/wd021/helpful-scripts/main/wd021.sh | bash
 
