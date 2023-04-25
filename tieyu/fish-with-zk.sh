@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get install -y build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev
 sudo apt-get install -y ocl-icd-opencl-dev
 
-wget https://github.com/6block/ironfish-gpu-miner/releases/download/v2.0.0/zkwork_ironminer.tar.gz
+wget https://github.com/6block/ironfish-gpu-miner/releases/download/v2.0.1/zkwork_ironminer.tar.gz
 tar -zxvf zkwork_ironminer.tar.gz
 
 cd zkwork_ironminer
